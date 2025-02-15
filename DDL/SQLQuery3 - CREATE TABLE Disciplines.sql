@@ -1,4 +1,4 @@
-??USE PV_319_DDL;
+п»їUSE PV_319_DDL;
 GO
 
 --CREATE TABLE Disciplines
@@ -33,10 +33,10 @@ GO
 --	PRIMARY KEY(discipline,required_discipline),
 --	CONSTRAINT	FK_RD_discipline_2_Disciplines	FOREIGN KEY (discipline)			REFERENCES Disciplines(discipline_id),
 --	CONSTRAINT	FK_RD_required_2_Disciplines	FOREIGN KEY (required_discipline)	REFERENCES Disciplines(discipline_id)
---	--FK - ForeignKey (Внешний ключ);
+--	--FK - ForeignKey (Р’РЅРµС€РЅРёР№ РєР»СЋС‡);
 --	--RD - RequiredDisciplines;
---	--discipline - имя поля, которое является внешним ключем
---	--2_Disciplines - показывает, на какую таблицу ссылается внешний ключ
+--	--discipline - РёРјСЏ РїРѕР»СЏ, РєРѕС‚РѕСЂРѕРµ СЏРІР»СЏРµС‚СЃСЏ РІРЅРµС€РЅРёРј РєР»СЋС‡РµРј
+--	--2_Disciplines - РїРѕРєР°Р·С‹РІР°РµС‚, РЅР° РєР°РєСѓСЋ С‚Р°Р±Р»РёС†Сѓ СЃСЃС‹Р»Р°РµС‚СЃСЏ РІРЅРµС€РЅРёР№ РєР»СЋС‡
 --);
 
 CREATE TABLE CompleteDisciplines
