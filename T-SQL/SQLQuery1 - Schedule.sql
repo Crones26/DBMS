@@ -1,11 +1,11 @@
-USE PV_319_Import;
+п»їUSE PV_319_Import;
 GO
 
 SET DATEFIRST 1;
 
 DECLARE @group				AS	INT			=	(SELECT group_id			FROM Groups			WHERE group_name = N'PV_319');
-DECLARE	@discipline			AS	SMALLINT	=	(SELECT discipline_id		FROM Disciplines	WHERE discipline_name LIKE N'Объектно-ориентированное программирование%');
-DECLARE @teacher			AS	SMALLINT	=	(SELECT teacher_id			FROM Teachers		WHERE first_name = N'Олег');
+DECLARE	@discipline			AS	SMALLINT	=	(SELECT discipline_id		FROM Disciplines	WHERE discipline_name LIKE N'РћР±СЉРµРєС‚РЅРѕ-РѕСЂРёРµРЅС‚РёСЂРѕРІР°РЅРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ%');
+DECLARE @teacher			AS	SMALLINT	=	(SELECT teacher_id			FROM Teachers		WHERE first_name = N'РћР»РµРі');
 DECLARE @start_date			AS	DATE		=	N'2024-06-01';
 DECLARE @date				AS	DATE		=	@start_date;
 DECLARE @number_of_lessons	AS	TINYINT		=	(SELECT number_of_lessons	FROM Disciplines	WHERE discipline_id=@discipline);
