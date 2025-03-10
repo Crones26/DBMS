@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DDL">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Functions">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="HOME-PC\SQLEXPRESS:HOME-PC\Cympak">
-          <Created>2025-02-06T16:01:15.1888256+05:00</Created>
+          <Created>2025-03-09T18:17:16.8199539+05:00</Created>
           <Type>SQL</Type>
           <Server>HOME-PC\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>PV_319</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
@@ -22,71 +22,65 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1 - CREATE DATABASE.sql">
+        <FileNode Name="SQLQuery0 - Check functions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - CREATE DATABASE.sql</FullPath>
+          <FullPath>SQLQuery0 - Check functions.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE TABLE Directions.sql">
+        <FileNode Name="SQLQuery1 - CREATE FUNCTION PrintSchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE TABLE Directions.sql</FullPath>
+          <FullPath>SQLQuery1 - CREATE FUNCTION PrintSchedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE TABLE Groups.sql.sql">
+        <FileNode Name="SQLQuery1 - GetDisciplineID.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE TABLE Groups.sql.sql</FullPath>
+          <FullPath>SQLQuery1 - GetDisciplineID.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE TABLE Students.sql.sql">
+        <FileNode Name="SQLQuery1 - GetGroupID.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE TABLE Students.sql.sql</FullPath>
+          <FullPath>SQLQuery1 - GetGroupID.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE TABLE Teachers.sql.sql">
+        <FileNode Name="SQLQuery7 - GetEasterDate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE TABLE Teachers.sql.sql</FullPath>
+          <FullPath>SQLQuery7 - GetEasterDate.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3 - CREATE TABLE Disciplines.sql">
+        <FileNode Name="SQLQuery7 - GetHolidayID.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - CREATE TABLE Disciplines.sql</FullPath>
+          <FullPath>SQLQuery7 - GetHolidayID.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4 - CREATE TABLE Schedule.sql">
+        <FileNode Name="SQLQuery7 - GetHolidaysDuration.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4 - CREATE TABLE Schedule.sql</FullPath>
+          <FullPath>SQLQuery7 - GetHolidaysDuration.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery5 - ALTER.sql">
+        <FileNode Name="SQLQuery7 - GetHolidaysStartDate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery5 - ALTER.sql</FullPath>
+          <FullPath>SQLQuery7 - GetHolidaysStartDate.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery7 - ALTER Holidays.sql">
+        <FileNode Name="SQLQuery7 - GetNewYearHolidaysStartDate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery7 - ALTER Holidays.sql</FullPath>
+          <FullPath>SQLQuery7 - GetNewYearHolidaysStartDate.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery7 - CREATE DaysOFF.sql">
+        <FileNode Name="SQLQuery7 - GetSummertimeSadness.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery7 - CREATE DaysOFF.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery7 - CREATE Holidays.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery7 - CREATE Holidays.sql</FullPath>
+          <FullPath>SQLQuery7 - GetSummertimeSadness.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
