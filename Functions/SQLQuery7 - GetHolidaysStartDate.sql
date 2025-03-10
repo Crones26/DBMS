@@ -1,4 +1,4 @@
-USE PV_319_Import;
+ÔªøUSE PV_319_Import;
 GO
 
 ALTER FUNCTION GetHolidaysStartDate(@holiday NVARCHAR(150), @year SMALLINT)RETURNS DATE
@@ -7,8 +7,8 @@ BEGIN
 	DECLARE @day	 AS TINYINT =	(SELECT [day]	FROM Holidays WHERE holiday_name LIKE @holiday);
 	DECLARE @start_date AS DATE =
 	CASE
-		WHEN @holiday LIKE N'ÕÓ‚%' THEN dbo.GetNewYearHolidaysStartDate(@year)
-		WHEN @holiday LIKE N'ÀÂÚ%' THEN dbo.GetSummerHolidaysStart(@year)
+		WHEN @holiday LIKE N'–ù–æ–≤%' THEN dbo.GetNewYearHolidaysStartDate(@year)
+		WHEN @holiday LIKE N'–õ–µ—Ç%' THEN dbo.GetSummerHolidaysStart(@year)
 		WHEN @month!=0 AND @day!=0 THEN DATEFROMPARTS(@year, @month, @day)
 	END
 

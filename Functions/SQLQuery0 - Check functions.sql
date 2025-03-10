@@ -1,4 +1,4 @@
-USE PV_319_Import;
+п»їUSE PV_319_Import;
 SET DATEFIRST 1;
 GO
 
@@ -8,6 +8,6 @@ GO
 --PRINT(dbo.CountSpentLessons(N'PV_319', N'%UML%'));
 --PRINT(dbo.GetNewYearHolidaysStartDate(2023));
 --PRINT(dbo.GetSummerHolidaysStart(2023));
---PRINT(dbo.GetHolidaysDuration(N'Летние%'));
+--PRINT(dbo.GetHolidaysDuration(N'Р›РµС‚РЅРёРµ%'));
 
-PRINT(dbo.GetHolidaysStartDate(N'Майские%', 2025));
+PRINT(dbo.GetHolidaysStartDate(N'РњР°Р№СЃРєРёРµ%', 2025));
